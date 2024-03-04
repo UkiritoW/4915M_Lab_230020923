@@ -64,7 +64,7 @@ namespace _4915M_Lab
         {
             int quantity = Convert.ToInt32(textBox1.Text);
             int total = quantity * price;
-            textBox2.Text = "Total: $" + total.ToString() + " Payment: " + payment;
+            label2.Text = "Total: $" + total.ToString() + " Payment: " + payment;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -78,6 +78,11 @@ namespace _4915M_Lab
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -164,12 +164,11 @@
             // 
             // lblMessage
             // 
-            this.lblMessage.AutoSize = true;
+            this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblMessage.Location = new System.Drawing.Point(59, 304);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.Size = new System.Drawing.Size(449, 28);
             this.lblMessage.TabIndex = 12;
-            this.lblMessage.Text = "label2";
             this.lblMessage.Click += new System.EventHandler(this.label2_Click);
             // 
             // Lab2b

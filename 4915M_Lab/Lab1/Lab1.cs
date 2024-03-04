@@ -45,7 +45,7 @@ namespace _4915M_Lab
         private void button1_Click(object sender, EventArgs e)
         {
             int x = Convert.ToInt32(txtNum1.Text) + Convert.ToInt32(txtNum2.Text);
-            textBox3.Text = Convert.ToString(x);
+            label4.Text = Convert.ToString(x);
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -54,6 +54,11 @@ namespace _4915M_Lab
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

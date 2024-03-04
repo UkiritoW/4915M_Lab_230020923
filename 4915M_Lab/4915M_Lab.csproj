@@ -70,6 +70,18 @@
     <Compile Include="Lab2\Lab2c\Lab2c.Designer.cs">
       <DependentUpon>Lab2c.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\Lab3a\Lab3a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Lab3a\Lab3a.Designer.cs">
+      <DependentUpon>Lab3a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3\Lab3b\Lab3b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Lab3b\Lab3b.Designer.cs">
+      <DependentUpon>Lab3b.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +98,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab2\Lab2b\Lab2b.resx">
       <DependentUpon>Lab2b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2\Lab2c\Lab2c.resx">
+      <DependentUpon>Lab2c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\Lab3a\Lab3a.resx">
+      <DependentUpon>Lab3a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\Lab3b\Lab3b.resx">
+      <DependentUpon>Lab3b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -112,5 +133,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

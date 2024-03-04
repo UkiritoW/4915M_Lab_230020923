@@ -17,6 +17,10 @@ namespace _4915M_Lab
             InitializeComponent();
         }
 
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Lab1 Lab1 = new Lab1();
@@ -33,6 +37,25 @@ namespace _4915M_Lab
         {
             Lab2b lab2b = new Lab2b();
             lab2b.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmStudents frmStudents = new frmStudents();
+            frmStudents.ShowDialog();
+        }
+        
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Lab3a Lab3a = new Lab3a();
+            Lab3a.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Lab3b Lab3b = new Lab3b();
+            Lab3b.ShowDialog();
         }
     }
 }
