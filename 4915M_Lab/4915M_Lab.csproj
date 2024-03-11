@@ -82,6 +82,12 @@
     <Compile Include="Lab3\Lab3b\Lab3b.Designer.cs">
       <DependentUpon>Lab3b.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\Lab3c\Lab3c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Lab3c\Lab3c.Designer.cs">
+      <DependentUpon>Lab3c.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab3\Lab3b\Lab3b.resx">
       <DependentUpon>Lab3b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\Lab3c\Lab3c.resx">
+      <DependentUpon>Lab3c.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
